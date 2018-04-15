@@ -1,5 +1,0 @@
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Contracts\bin\Debug\ctci.Contracts.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Contracts\bin\Debug\ctci.Contracts.pdb
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Contracts\obj\Debug\CodingAlgorithms.Contracts.csprojResolveAssemblyReference.cache
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Contracts\obj\Debug\ctci.Contracts.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Contracts\obj\Debug\ctci.Contracts.pdb

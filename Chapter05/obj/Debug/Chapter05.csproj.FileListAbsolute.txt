@@ -1,8 +1,0 @@
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\Chapter05.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\Chapter05.pdb
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\ctci.Contracts.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\ctci.Library.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\ctci.Contracts.pdb
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\bin\Debug\ctci.Library.pdb
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\obj\Debug\Chapter05.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\Chapter05\obj\Debug\Chapter05.pdb

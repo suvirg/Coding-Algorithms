@@ -1,5 +1,0 @@
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Library\bin\Debug\ctci.Library.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Library\bin\Debug\ctci.Library.pdb
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Library\obj\Debug\CodingAlgorithms.Library.csprojResolveAssemblyReference.cache
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Library\obj\Debug\ctci.Library.dll
-C:\SuvirWork\PersonalStudy\Net_Platform\GitHubRepository\Cracking-Interview-master\ctci.Library\obj\Debug\ctci.Library.pdb
