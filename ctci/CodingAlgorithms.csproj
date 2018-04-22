@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ctci</RootNamespace>
     <AssemblyName>ctci</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -80,10 +83,29 @@
       <Project>{d1b538b9-de81-4fff-93b2-a958ed2ce4da}</Project>
       <Name>CodingAlgorithms.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ctci.Library\CodingAlgorithms.Library.csproj">
+      <Project>{8dc982e1-042c-4652-bbc4-cd375223c852}</Project>
+      <Name>CodingAlgorithms.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dynamic_Programming\Dynamic_Programming.csproj">
+      <Project>{e4875b60-8602-4de9-84c4-d3681fd30ef6}</Project>
+      <Name>Dynamic_Programming</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Introduction\Introduction.csproj">
       <Project>{af745a68-20a9-4ff4-801c-86a3b0383c49}</Project>
       <Name>Introduction</Name>
     </ProjectReference>
+    <ProjectReference Include="..\miscellaneous\miscellaneous.csproj">
+      <Project>{b325ba60-3b93-4c6c-9a7c-e25d527ddc5a}</Project>
+      <Name>miscellaneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\String\String_Problems.csproj">
+      <Project>{20bb8e07-5899-4a61-bd68-37825b6e9730}</Project>
+      <Name>String_Problems</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
