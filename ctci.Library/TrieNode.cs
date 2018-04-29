@@ -5,7 +5,7 @@ namespace CodingAlgorithms.Library
     public class TrieNode
     {
         // The children of this node in the trie.
-        private readonly LinkedList<TrieNode> _children;
+        public readonly LinkedList<TrieNode> _children;
         public bool Terminates { get; set; }
 
         // The character stored in this node as data.

@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiameterOfTree.cs" />
+    <Compile Include="PrintInVerticalOrder.cs" />
+    <Compile Include="PrintLevelOrder.cs" />
     <Compile Include="Sum_Left_Subtree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

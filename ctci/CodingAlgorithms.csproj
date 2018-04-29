@@ -39,6 +39,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Array_Problems\Array_Problems.csproj">
+      <Project>{B5FDBB66-1C16-46A8-913C-B3A976703B3B}</Project>
+      <Name>Array_Problems</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chapter01\Chapter01.csproj">
       <Project>{3f2df0fa-d7a0-479b-b720-3ab7411e9539}</Project>
       <Name>Chapter01</Name>
@@ -102,6 +106,10 @@
     <ProjectReference Include="..\String\String_Problems.csproj">
       <Project>{20bb8e07-5899-4a61-bd68-37825b6e9730}</Project>
       <Name>String_Problems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tree_Problem\Tree_Problems.csproj">
+      <Project>{a77873bd-2e8f-4553-8367-187f79517838}</Project>
+      <Name>Tree_Problems</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

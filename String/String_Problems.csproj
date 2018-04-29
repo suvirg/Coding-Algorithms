@@ -46,12 +46,16 @@
     <Compile Include="FindUniqueWords.cs" />
     <Compile Include="LongestSubString.cs" />
     <Compile Include="LongestSubStrWithTwoChar.cs" />
+    <Compile Include="MinimumContinuousTrgList.cs" />
     <Compile Include="MinWindowSubString.cs" />
     <Compile Include="PalindromePairs.cs" />
+    <Compile Include="PalindromeSubStrings.cs" />
     <Compile Include="PermuteLetters.cs" />
     <Compile Include="PrintAllPermutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShortestPalindrom.cs" />
+    <Compile Include="TranslateNumbersToChars.cs" />
+    <Compile Include="Trie_StringPatternSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Contracts\CodingAlgorithms.Contracts.csproj">

@@ -2,10 +2,12 @@
 using CodingAlgorithms.Contracts;
 using CodingAlgorithms.Library;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Chapter04
 {
-    public class Q04_7 : IQuestion
+    public class Q04_7_LCA : IQuestion
     {
         const int TwoNodesFound = 2;
         const int OneNodeFound = 1;
@@ -99,15 +101,66 @@ namespace Chapter04
             return null;
         }
 
+        public static Stack<TreeNode> PathToX(TreeNode root, TreeNode x)
+        {
+            if (root == null) return null;
+            if (root.Data == x.Data)
+            {
+                var stack = new Stack<TreeNode>();
+                stack.Push(root);
+                return stack;
+            }
+
+            var leftpath = PathToX(root.Left, x);
+            if(leftpath !=null)
+            {
+                leftpath.Push(root);
+                return leftpath;
+            }
+
+            var rightpath = PathToX(root.Right, x);
+            if (rightpath != null)
+            {
+                rightpath.Push(root);
+                return rightpath;
+            }
+
+            return null;
+
+        }
+
+        public static TreeNode FindLCA(TreeNode root, TreeNode node1, TreeNode node2)
+        {
+            var pathToNode1 = PathToX(root, node1);
+            var pathToNode2 = PathToX(root, node2);
+            if(pathToNode1 == null && pathToNode2 == null)
+            {
+                return null;
+            }
+            TreeNode lca = null;
+
+            while(pathToNode1.Count>0 && pathToNode2.Count > 0)
+            {
+                var val1 = pathToNode1.Pop();
+                var val2 = pathToNode2.Pop();
+
+                if (val1.Data == val2.Data)
+                {
+                    lca = val1;
+                    break;
+                }
+             }
+            return lca;
+         }
+
         public void Run()
         {
             int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		    var root = TreeNode.CreateMinimalBst(array);
-            var n3 = root.Find(1);
-            var n7 = root.Find(7);
-            var ancestor = CommonAncestor(root, n3, n7);
-
-		    Console.WriteLine(ancestor.Data);
+            var n3 = root.Find(7);
+            var n7 = root.Find(10);
+            var res = FindLCA(root, n3, n7);
+		    Console.WriteLine("Common Ancester {0}", res.Data);
         }
     }
 }

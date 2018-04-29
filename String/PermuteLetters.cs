@@ -34,7 +34,6 @@ namespace String_Problems
             string[] words = new string[] { "red", "fox", "super", "test" };
 
             printPermutate(words, 0, "");
-            throw new NotImplementedException();
         }
     }
 }

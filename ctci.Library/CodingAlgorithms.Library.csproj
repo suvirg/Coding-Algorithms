@@ -41,6 +41,7 @@
     <Compile Include="BitVector.cs" />
     <Compile Include="BTreePrinter.cs" />
     <Compile Include="CheckIsomorphic.cs" />
+    <Compile Include="EncodeIntToString.cs" />
     <Compile Include="GetString.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="Palindrome.cs" />

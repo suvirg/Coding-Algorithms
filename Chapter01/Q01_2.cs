@@ -49,13 +49,31 @@ namespace Chapter01
             return stringBuilder.ToString();
         }
 
+        string Reverse3(string str)
+        {
+            var len = str.Length-1;
+            var i = 0;
+            char[] arr = str.ToCharArray();
+            char temp ;
+            while(i<len)
+            {
+                temp = arr[len];
+                arr[len] = arr[i];
+                arr[i] = temp;
+                i++;
+                len--;
+            }
+            return new string(arr);
+        }
+
+
         public void Run()
         {
             var input = new string[]{"vxyz", "abcde", "cat"};
 
             foreach (var str in input)
             {
-                Console.WriteLine("reversing the string: {0} => {1} / {2}", str, Reverse(str), Reverse2(str));
+                Console.WriteLine("reversing the string: {0} => {1} / {2} / {3}", str, Reverse(str), Reverse2(str), Reverse3(str));
             }
         }
     }
