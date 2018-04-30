@@ -47,6 +47,7 @@
     <Compile Include="LongestSubString.cs" />
     <Compile Include="LongestSubStrWithTwoChar.cs" />
     <Compile Include="MinimumContinuousTrgList.cs" />
+    <Compile Include="MinOverlappingChar.cs" />
     <Compile Include="MinWindowSubString.cs" />
     <Compile Include="PalindromePairs.cs" />
     <Compile Include="PalindromeSubStrings.cs" />

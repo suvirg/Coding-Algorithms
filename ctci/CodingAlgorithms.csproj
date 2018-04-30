@@ -47,9 +47,9 @@
       <Project>{3f2df0fa-d7a0-479b-b720-3ab7411e9539}</Project>
       <Name>Chapter01</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Chapter02\Chapter02.csproj">
+    <ProjectReference Include="..\Chapter02\Chapter02_LinkList.csproj">
       <Project>{d1ace913-9486-4cdc-b980-a5f848a67108}</Project>
-      <Name>Chapter02</Name>
+      <Name>Chapter02_LinkList</Name>
     </ProjectReference>
     <ProjectReference Include="..\Chapter03\Chapter03.csproj">
       <Project>{9fdd0b75-3b21-4ab9-aa86-5c4c9b2fbf98}</Project>

@@ -50,11 +50,11 @@ namespace CodingAlgorithms.Library
 		    return array;
 	    }
 	
-	    public static LinkedListNode RandomLinkedList(int N, int min, int max)
+	    public static LinkedListNode RandomLinkedList(int size, int min, int max)
         {
 		    LinkedListNode root = new LinkedListNode(RandomIntInRange(min, max), null, null);
 		    LinkedListNode prev = root;
-		    for (int i = 1; i < N; i++) {
+		    for (int i = 1; i < size; i++) {
 			    int data = RandomIntInRange(min, max);
 			    LinkedListNode next = new LinkedListNode(data, null, null);
 			    prev.SetNext(next);
@@ -63,12 +63,12 @@ namespace CodingAlgorithms.Library
 		    return root;
 	    }
 	
-	    public static LinkedListNode LinkedListWithValue(int N, int value)
+	    public static LinkedListNode LinkedListWithValue(int size, int [] value)
         {
-		    LinkedListNode root = new LinkedListNode(value, null, null);
+		    LinkedListNode root = new LinkedListNode(value[0], null, null);
 		    LinkedListNode prev = root;
-		    for (int i = 1; i < N; i++) {
-			    LinkedListNode next = new LinkedListNode(value, null, null);
+		    for (int i = 1; i < size; i++) {
+			    LinkedListNode next = new LinkedListNode(value[i], null, null);
 			    prev.SetNext(next);
 			    prev = next;
 		    }

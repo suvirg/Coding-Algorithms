@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{F9BD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02", "Chapter02\Chapter02.csproj", "{D1ACE913-9486-4CDC-B980-A5F848A67108}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02_LinkList", "Chapter02\Chapter02_LinkList.csproj", "{D1ACE913-9486-4CDC-B980-A5F848A67108}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03", "Chapter03\Chapter03.csproj", "{9FDD0B75-3B21-4AB9-AA86-5C4C9B2FBF98}"
 EndProject

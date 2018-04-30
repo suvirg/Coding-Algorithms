@@ -34,15 +34,7 @@ namespace Tree_Problem
 
 
         }
-        private void Inorder(TreeNode node)
-        {
-            if (node == null)
-                return;
-            Inorder(node.Left);
-            Console.WriteLine("{0} ", node.Data);
-            Inorder(node.Right);
-        }
-        
+                
         public void Run()
         {
             /* Let us construct below tree
@@ -61,7 +53,7 @@ namespace Tree_Problem
         UpdateTree(root);
 
         Console.WriteLine("Inorder traversal of the modified tree is \n");
-        Inorder(root);
+        BTreePrinter.Inorder(root);
        }
     }
 }

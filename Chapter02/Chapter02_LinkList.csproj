@@ -42,6 +42,7 @@
     <Compile Include="Q02_2.cs" />
     <Compile Include="Q02_1.cs" />
     <Compile Include="Q02_Bonus1.cs" />
+    <Compile Include="ReverseNodesk-Group.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Contracts\CodingAlgorithms.Contracts.csproj">

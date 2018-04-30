@@ -132,8 +132,7 @@ namespace CodingAlgorithms.Library
         {
 		    return CreateMinimalBst(array, 0, array.Length - 1);
 	    }
-	
-	    public void Print() 
+        public void Print() 
         {
             BTreePrinter.PrintNode(this);
 	    }

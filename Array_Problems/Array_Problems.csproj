@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Common_ElementinTwoSorted.cs" />
     <Compile Include="Is_Rotation.cs" />
+    <Compile Include="KthMissingFromArray.cs" />
+    <Compile Include="K_EquallyBucket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

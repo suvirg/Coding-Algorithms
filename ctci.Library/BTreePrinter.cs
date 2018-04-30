@@ -11,6 +11,15 @@ namespace CodingAlgorithms.Library
             PrintNodeInternal(new List<TreeNode>() { root }, 1, maxLevel);
         }
 
+        public static void Inorder(TreeNode node)
+        {
+            if (node == null)
+                return;
+            Inorder(node.Left);
+            Console.WriteLine("{0} ", node.Data);
+            Inorder(node.Right);
+        }
+
         private static void PrintNodeInternal(List<TreeNode> nodes, int level, int maxLevel) {
             if (nodes.Count==0 || BTreePrinter.IsAllElementsNull(nodes))
                 return;
