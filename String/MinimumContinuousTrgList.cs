@@ -27,7 +27,6 @@ namespace String_Problems
         private List<int> FindSubSequence(string []targetList, string[] availableTargetList)
         {
             List<int> result = new List<int>();
-            Dictionary<string, int> targetDic = new Dictionary<string, int>();
             int startIndex = -1;
             int endIndex = 0;
             int minWindow = 0;
@@ -47,9 +46,7 @@ namespace String_Problems
                             if (result.Any())
                             {
                                 result.Clear();
-
                             }
-
                             result.Add(startIndex);
                             result.Add(endIndex);
                         }
@@ -57,12 +54,10 @@ namespace String_Problems
                         startIndex = -1;
                     }
                     targetListIndex++;
-
                 }
                 count++;
             }
             return result;
-
         }
 
         public void Run()
@@ -72,7 +67,6 @@ namespace String_Problems
             string[] targetList =  { "east", "in", "south"};
             string[] availableTagsList = { "east", "thth","ththt","in", "south", "east", "in", "south" };
             var result = FindSubSequence(targetList, availableTagsList);
-
         }
     }
 }

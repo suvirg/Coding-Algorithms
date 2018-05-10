@@ -5,7 +5,7 @@ using System;
 
 namespace Chapter02
 {
-    public class Q02_5 : IQuestion
+    public class Q02_5_AddNumber : IQuestion
     {
         #region First Part
 

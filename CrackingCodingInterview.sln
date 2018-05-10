@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingAlgorithms", "ctci\CodingAlgorithms.csproj", "{F7867FE4-E80B-44DD-9666-C82E6D401B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01", "Chapter01\Chapter01.csproj", "{3F2DF0FA-D7A0-479B-B720-3AB7411E9539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01_Array_String", "Chapter01\Chapter01_Array_String.csproj", "{3F2DF0FA-D7A0-479B-B720-3AB7411E9539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingAlgorithms.Contracts", "ctci.Contracts\CodingAlgorithms.Contracts.csproj", "{D1B538B9-DE81-4FFF-93B2-A958ED2CE4DA}"
 EndProject
@@ -19,9 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02_LinkList", "Chapter02\Chapter02_LinkList.csproj", "{D1ACE913-9486-4CDC-B980-A5F848A67108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03", "Chapter03\Chapter03.csproj", "{9FDD0B75-3B21-4AB9-AA86-5C4C9B2FBF98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03_StacknQueue", "Chapter03\Chapter03_StacknQueue.csproj", "{9FDD0B75-3B21-4AB9-AA86-5C4C9B2FBF98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04", "Chapter04\Chapter04.csproj", "{73C1FAC4-EB22-4328-AA1D-BD2F1280B009}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04_Tree", "Chapter04\Chapter04_Tree.csproj", "{73C1FAC4-EB22-4328-AA1D-BD2F1280B009}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05", "Chapter05\Chapter05.csproj", "{6515F74F-66C6-414D-B5EC-10260AAD473C}"
 EndProject
@@ -29,11 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07", "Chapter07\Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09", "Chapter09\Chapter09.csproj", "{0E08D7F7-C337-4CD0-945A-D1C5B68E5CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter11", "Chapter11\Chapter11.csproj", "{90D56A57-CEAD-42F8-A978-BC2D33530E0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter11_SortingnSearching", "Chapter11\Chapter11_SortingnSearching.csproj", "{90D56A57-CEAD-42F8-A978-BC2D33530E0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter17", "Chapter17\Chapter17.csproj", "{64036BB0-00FB-4896-B611-D6FC041F7465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter18", "Chapter18\Chapter18.csproj", "{E1FB6099-FF08-4F46-A23E-8B04AA84E964}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter18_HardProbs", "Chapter18\Chapter18_HardProbs.csproj", "{E1FB6099-FF08-4F46-A23E-8B04AA84E964}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{7E3CDC15-8D49-4FAE-BD90-28DBA6385A40}"
 EndProject

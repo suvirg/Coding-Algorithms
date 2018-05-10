@@ -5,7 +5,7 @@ using System;
 
 namespace Chapter04
 {
-    public class Q04_8 : IQuestion
+    public class Q04_8_SubTree : IQuestion
     {
         public static bool ContainsTree(TreeNode t1, TreeNode t2)
         {

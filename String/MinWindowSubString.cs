@@ -16,7 +16,6 @@ namespace String_Problems
             int charCount = t.Length;
             int count = 0;
             int startIndex = 0;
-
             string finalString = string.Empty;
 
             foreach (var c in t)
@@ -47,7 +46,6 @@ namespace String_Problems
                     {
                         if (currentMap[s[i]] <= map[s[i]])
                         {
-
                             if (count == 0)
                                 startIndex = i;
                             count++;
@@ -67,28 +65,25 @@ namespace String_Problems
                         c = s[startIndex];
                     }
 
-
                     if (finalString.Length > s.Substring(startIndex, i - startIndex + 1).Length || finalString == string.Empty)
                         finalString = s.Substring(startIndex, i - startIndex + 1);
 
                     currentMap.Clear();
                     i = startIndex + 1;
-
                     count = 0;
                 }
             }
-
             return finalString;
-
         }
+
         public void Run()
         {
             //For example,
-            string s = "ADOBECODEBANC";
-            string t = "ABC";
+            //string s = "ADOBECODEBANC";
+            //string t = "ABC";
             //Minimum window is "BANC".
-            //string s = "bba";
-            //string t = "ab";
+            string s = "bba";
+            string t = "ab";
             var result = Find(s, t);
             Console.WriteLine("Minimum window is {0}", result);
             Console.ReadLine();

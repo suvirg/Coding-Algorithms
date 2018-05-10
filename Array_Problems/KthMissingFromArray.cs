@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Array_Problems
 {
     // https://www.careercup.com/question?id=5667690264920064
-    //https://www.geeksforgeeks.org/k-th-missing-element-in-sorted-array/
+    // https://www.geeksforgeeks.org/k-th-missing-element-in-sorted-array/
     public class KthMissingFromArray : IQuestion
     {
         public int FindMissing(int[] Arr, int k)

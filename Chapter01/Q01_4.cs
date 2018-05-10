@@ -42,7 +42,7 @@ namespace Chapter01
 
         public void Run()
         {
-            const string input = "abc d e f";
+            const string input = "Mr John Smith";
 		    var characterArray = new char[input.Length + 3 * 2 + 1];
 
 		    for (var i = 0; i < input.Length; i++) 

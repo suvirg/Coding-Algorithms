@@ -46,9 +46,9 @@ namespace String_Problems
                         solutions.Add(EncodeIntToString.Encode(prefix));
                     }
                     else foreach (var subSolution in subSolutions)
-                    {
-                        solutions.Add(EncodeIntToString.Encode(prefix) + subSolution);
-                    }
+                        {
+                            solutions.Add(EncodeIntToString.Encode(prefix) + subSolution);
+                        }
                 }
             }
 
@@ -60,6 +60,9 @@ namespace String_Problems
         public void Run()
         {
             var result = BuildSubSequenses("1234");
+            string s = "India";
+            var subs = s.Substring(1);
+
             foreach (var res in result)
             {
                 Console.WriteLine(res);

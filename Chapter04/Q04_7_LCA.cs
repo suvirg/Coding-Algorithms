@@ -151,13 +151,14 @@ namespace Chapter04
                 }
              }
             return lca;
+
          }
 
         public void Run()
         {
             int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		    var root = TreeNode.CreateMinimalBst(array);
-            var n3 = root.Find(7);
+            var n3 = root.Find(6);
             var n7 = root.Find(10);
             var res = FindLCA(root, n3, n7);
 		    Console.WriteLine("Common Ancester {0}", res.Data);
