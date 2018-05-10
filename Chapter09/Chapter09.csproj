@@ -36,10 +36,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PrintAllPermutations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Q09_1_CountWays.cs" />
-    <Compile Include="Q09_6_PrintAllValid_Parenthesis.cs" />
+    <Compile Include="Q09_6.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Contracts\CodingAlgorithms.Contracts.csproj">

@@ -10,11 +10,9 @@ namespace String_Problems
 {
     public class PalindromeSubStrings : IQuestion
     {
-        //public List<string> CheckPalindromeSubStrings(string str)
-        public string CheckPalindromeSubStrings(string str)
+        public List<string> CheckPalindromeSubStrings(string str)
         {
-            //List<string> result = new List<string>();
-            string result = "";
+            List<string> result = new List<string>();
             char[] strArr = str.ToArray();
             for(int i=0;i<=strArr.Length-1;i++)
             {
@@ -23,33 +21,30 @@ namespace String_Problems
                 for (int j = i; j < strArr.Length - 1 && tempIndex >= 0;)
                 {
                     string temp = str.Substring(tempIndex, j - tempIndex);
-                    if (result.Length < temp.Length)
+                    if(temp.Length > 1 && Palindrome.IsPalindrome( temp))
                     {
-                        if (temp.Length > 2 && Palindrome.IsPalindrome(temp))
-                        {
-                            result = temp;
-                        }
+                        result.Add(temp);
                     }
 
                     if (flip)
                     {
-                        j = j + 1;
+                        j++;
                         flip = false;
                     }
                     else
                     {
-                        tempIndex = tempIndex - 1;
+                        tempIndex--;
                         flip = true;
                     }
-                }
+                    }
             }
             return result;
         }
 
         public void Run()
         {
-            //string str = "abaab";  //output => "aba" , "aa" , "baab" 
-            string str = "abababaaba";  //output => "bb" , "abba" ,"aea","eae"  //Todo - Work for this case....
+            string str = "abaab";  //output => "aba" , "aa" , "baab" 
+            //string str = "abbaeae";  //output => "bb" , "abba" ,"aea","eae"  //Todo - Work for this case....
             var result = CheckPalindromeSubStrings(str);
             foreach (var s in result)
             {

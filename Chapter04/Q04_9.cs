@@ -5,7 +5,7 @@ using System;
 
 namespace Chapter04
 {
-    public class Q04_9_SumBtwNodes : IQuestion
+    public class Q04_9 : IQuestion
     {
         public static void FindSum(TreeNode node, int sum, int[] path, int level)
         {

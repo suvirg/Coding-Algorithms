@@ -45,11 +45,15 @@ namespace String_Problems
                         start++;
                     }
                 }
+
             }
 
             max = Math.Max(max, str.Length - start);
             return max;
         }
+
+
+
 
         public void Run()
         {

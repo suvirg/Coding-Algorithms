@@ -42,26 +42,10 @@ namespace String_Problem
             return start + c + end;
 
         }
-
-        //static public void printAllPermutationString_ver2(string prefix, string suffix, List<string> result)
-        //{
-        //    if(suffix.Length ==0)
-        //    {
-        //        result.Add(prefix);
-        //    }
-        //    else
-        //    {
-        //        for(int i=0; i< suffix.Length; i++)
-        //        {
-        //            printAllPermutationString_ver2(prefix + suffix[i], suffix.Substring(0, i) + suffix.Substring(i + 1, suffix.Length-1), result);
-
-        //        }
-        //    }
-        //}
-
+        
         public void Run()
         {
-            // var res = GetStringFrom("12345678");
+           // var res = GetStringFrom("12345678");
             int count = 0;
             var finalstring = printAllPermutationString("12345");
             foreach (var s in finalstring)
@@ -70,16 +54,7 @@ namespace String_Problem
 
                 count++;
             }
-
-            //revisit Later not a working solution...
-            //List<string> finalstring = new List<string>();
-            //printAllPermutationString_ver2("","abc", finalstring);
-            //Console.WriteLine("Total Permutations : = {0}", finalstring.Count);
-            //foreach (var s in finalstring)
-            //{
-            //    Console.WriteLine(s);
-
-            //}
+            Console.WriteLine("Total Permutations : = {0}", count);
             Console.ReadLine();
 
         }

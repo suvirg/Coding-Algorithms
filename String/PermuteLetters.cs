@@ -18,13 +18,13 @@ namespace String_Problems
                 if ((print + word[x].ToString()).Length == words.Count())
                 {
                     Console.WriteLine(print + word[x].ToString());
+
                 }
                 else if (index + 1 < words.Count())
                 {
                     printPermutate(words, index + 1, print + word[x].ToString());
                 }
             }
-
             return;
         }
 

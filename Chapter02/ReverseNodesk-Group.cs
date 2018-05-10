@@ -12,6 +12,7 @@ namespace Chapter02
     {
         public LinkedListNode ReverseList(LinkedListNode head, int groupSize)
         {
+            LinkedListNode LinkedListNode = new LinkedListNode();
             LinkedListNode current = head;
             LinkedListNode next = null;
             LinkedListNode prev = null;
@@ -41,12 +42,12 @@ namespace Chapter02
 
         public void Run()
         {
-            int[] Arr = new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-            var head = AssortedMethods.LinkedListWithValue(15, Arr);
+            int[] Arr = new int[] {1,2,3,4,5,6,7,8};
+            var head = AssortedMethods.LinkedListWithValue(8, Arr);
             var resultNode = ReverseList(head, 3);
-            while(resultNode != null)
+            while(resultNode.Next != null)
             {
-                Console.Write(resultNode.Data + "->");
+                Console.WriteLine(resultNode.Data + "->");
                 resultNode = resultNode.Next;
             }
 
