@@ -24,15 +24,18 @@ namespace Tree_Problem
 
             int oldValue = root.Data;
             // Update left and right subtrees
-            root.Data = UpdateTree(root.Left) + UpdateTree(root.Right);
+            var leftSum = UpdateTree(root.Left);
 
+            root.Data += leftSum;
+
+            var rightSum = UpdateTree(root.Right);
+
+            root.Data += rightSum;
             // Add leftsum to current node
-           
+
 
             // Return sum of values under root
-            return root.Data + oldValue;
-
-
+            return root.Data;
         }
                 
         public void Run()

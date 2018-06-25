@@ -8,7 +8,7 @@ using CodingAlgorithms.Library;
 
 namespace Chapter09
 {
-    public class Q09_6 : IQuestion
+    public class Q09_6_possibleParenthesis : IQuestion
     {
         void AddParen(List<string> list, int leftRem, int rightRem, char[] str, int count)
         {

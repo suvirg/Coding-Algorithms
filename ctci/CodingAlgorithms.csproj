@@ -67,9 +67,9 @@
       <Project>{97397b7a-a9e6-4419-b5bf-ccd8d1e17c97}</Project>
       <Name>Chapter07</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Chapter09\Chapter09.csproj">
+    <ProjectReference Include="..\Chapter09\Chapter09_dynamicprogramming.csproj">
       <Project>{0e08d7f7-c337-4cd0-945a-d1c5b68e5cf2}</Project>
-      <Name>Chapter09</Name>
+      <Name>Chapter09_dynamicprogramming</Name>
     </ProjectReference>
     <ProjectReference Include="..\Chapter11\Chapter11.csproj">
       <Project>{90d56a57-cead-42f8-a978-bc2d33530e0e}</Project>
@@ -102,6 +102,14 @@
     <ProjectReference Include="..\miscellaneous\miscellaneous.csproj">
       <Project>{b325ba60-3b93-4c6c-9a7c-e25d527ddc5a}</Project>
       <Name>miscellaneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Searching\Searching.csproj">
+      <Project>{50d16510-af07-4f1e-97b8-98684ddaa673}</Project>
+      <Name>Searching</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sorting\Sorting.csproj">
+      <Project>{9634ffd9-77be-45c5-8755-b06abdbd6796}</Project>
+      <Name>Sorting</Name>
     </ProjectReference>
     <ProjectReference Include="..\String\String_Problems.csproj">
       <Project>{20bb8e07-5899-4a61-bd68-37825b6e9730}</Project>

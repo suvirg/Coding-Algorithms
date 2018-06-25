@@ -11,42 +11,24 @@ namespace Array_Problems
     //https://www.geeksforgeeks.org/k-th-missing-element-in-sorted-array/
     public class KthMissingFromArray : IQuestion
     {
-        public int FindMissing(int[] Arr, int k)
+        public int FindMissing(int[] list, int num)
         {
-            int difference = 0;
-            int ans = 0, count = k;
-            bool flag = false;
-
-            // interating over the array
-            for (int i = 0; i < Arr.Length - 1; i++)
+            int k = 0, val = 0;
+            if (list.Length < 2) return -1;
+            val = list[0];
+            for (int i = 0; i < list.Length - 1; ++i)
             {
-                difference = 0;
-
-                // check if i-th and 
-                // (i + 1)-th element 
-                // are not consecutive
-                if ((Arr[i] + 1) != Arr[i + 1])
+                val = list[i];
+                while ((list[i + 1] - val) > 1)
                 {
-                    // save their difference
-                    difference += (Arr[i + 1] - Arr[i]) - 1;
-                    // check for difference
-                    // and given k
-                    if (difference >= count)
-                    {
-                        ans = Arr[i] + count;
-                        flag = true;
-                        break;
-                    }
-                    else
-                        count -= difference;
+                    val++;
+                    if (k == num) return val;
+                    k++;
                 }
+                    
             }
+            return -1;
 
-            // if found
-            if (flag)
-                return ans;
-            else
-                return -1;
         }
 
         public void Run()
@@ -55,7 +37,7 @@ namespace Array_Problems
 
             // k-th missing element 
             // to be found in the array
-            int k = 4;
+            int k = 0;
             int n = a.Length;
 
             // calling function to

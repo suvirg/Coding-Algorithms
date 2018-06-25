@@ -16,7 +16,8 @@ using String_Problem;
 using String_Problems;
 using Array_Problems;
 using Tree_Problem;
-
+using Dynamic_Programming;
+using Sorting;
 
 namespace CodingAlgorithms
 {
@@ -36,25 +37,40 @@ namespace CodingAlgorithms
                 new Q04_1(), new Q04_2(), new Q04_3(), new Q04_4(), new Q04_5_IsBST(), new Q04_6(), new Q04_7_LCA(), new Q04_8(), new Q04_9(),
                 new Q05_1(), new Q05_2(), new Q05_3(), new Q05_5(), new Q05_6(), new Q05_7(), new Q05_8(), 
                 new Q07_3(), new Q07_4(), new Q07_5(), new Q07_6(), new Q07_7(),
-                new Q09_6(), new Q09_1_CountWays(),
+                new Q09_6_possibleParenthesis(), new Q09_1_CountWays(), new Q09_3(),
                 new Q11_1(),  new Q11_2(), new Q17_3(), new Q17_4(),
                 new Q17_11(), new Q17_12(), new Q18_1(), new Q18_2(), new Q18_9(), new Q18_10(), new Q18_11(),
                 new PrintAllPermutation() , new FindUniqueWords(), new PalindromePairs(), new LongestSubString(), new MinWindowSubString(),
                 new LongestSubStrWithTwoChar(), new PermuteLetters(),
+                new Q09_4_GetSubSets(),
                 new TranslateNumbersToChars(),
                 new PalindromeSubStrings(),
                 new Trie_StringPatternSearch(),
                 new MinimumContinuousTrgList(),
                 new MinOverlappingChar(),
+                new AirportOrderedList(),
                 //Array Problems
                 new Common_ElementinTwoSorted(), new Is_Rotation(),
                 new K_EquallyBucket(), new KthMissingFromArray(),
+                new KthLargestElement(),
+                new GetRunningMedian(),
+                new LongestConsecutive(),
+                new FindClosest(),
+                new MissingNumberinArray(), 
                 //Tree Problems
                 new PrintInVerticalOrder(), new PrintLevelOrder(), new DiameterOfTree(),
                 new Sum_Left_Subtree(),
-                new DeleteTreeNode()
-
-
+                new DeleteTreeNode(),
+                new PrintLeftView(),
+                new MirrorTree(),
+                new MaxPathSum(),
+                new IsMirrorTree(),
+                new VerifyPostOrderSquenceOfBST(),
+                new VerifyPreOrderSquenceOfBST(),
+                //Dynamic Programming...
+                new CoinChange(),
+                new _0_1_Knapsack(),
+                new RemoveInvalidParentheses()
             };
 
             foreach (IQuestion q in questions)

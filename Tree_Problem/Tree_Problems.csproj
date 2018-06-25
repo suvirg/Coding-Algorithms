@@ -43,10 +43,16 @@
   <ItemGroup>
     <Compile Include="DeleteNode.cs" />
     <Compile Include="DiameterOfTree.cs" />
+    <Compile Include="IsMirrorTree.cs" />
+    <Compile Include="MaxPathSum.cs" />
+    <Compile Include="MirrorTree.cs" />
     <Compile Include="PrintInVerticalOrder.cs" />
+    <Compile Include="PrintLeftView.cs" />
     <Compile Include="PrintLevelOrder.cs" />
     <Compile Include="Sum_Left_Subtree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerifyPostOrderSquenceOfBST.cs" />
+    <Compile Include="VerifyPreOrderSquenceOfBST.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Contracts\CodingAlgorithms.Contracts.csproj">

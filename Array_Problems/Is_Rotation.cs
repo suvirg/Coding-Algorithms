@@ -23,7 +23,6 @@ namespace Array_Problems
                     key_i = i;
                     break; 
                 }
-               
             }
 
             if (key_i == -1)

@@ -51,10 +51,7 @@ namespace String_Problems
             max = Math.Max(max, str.Length - start);
             return max;
         }
-
-
-
-
+        
         public void Run()
         {
             string str = "abcbbbbcccbdddadacb"; /// Ans(10) => bcbbbbcccb

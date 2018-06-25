@@ -12,7 +12,6 @@ namespace Tree_Problem
     {
         SortedDictionary<int, List<int>> veticalOrder = new SortedDictionary<int, List<int>>();
 
-
         public TreeNode PrintVerticalOrder(TreeNode root, int level)
         {
             if (root == null)

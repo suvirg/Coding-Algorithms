@@ -60,7 +60,7 @@ namespace Array_Problems
 
         public void Run()
         {
-            int[] arr = { 1, 3, 6, 9, 10 };
+            int[] arr = { 1, 2, 3, 6, 7, 9};
             List<List<int>> res = ArraySplit(arr, 3);
             Console.WriteLine("K Equally Weighted Buckets are");
             foreach (List<int> list in res)

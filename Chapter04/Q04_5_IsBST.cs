@@ -9,7 +9,7 @@ namespace Chapter04
     {
         public bool IsBST( TreeNode node, int lower_limit=0, int upper_limit=0)
         {
-            if(lower_limit !=0 && node.Data <lower_limit)
+            if(lower_limit != 0 && node.Data <lower_limit)
                 return false;
 
             if (upper_limit != 0 && node.Data > upper_limit)

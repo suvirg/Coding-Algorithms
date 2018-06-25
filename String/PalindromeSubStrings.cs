@@ -3,8 +3,6 @@ using CodingAlgorithms.Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace String_Problems
 {
@@ -36,20 +34,62 @@ namespace String_Problems
                         tempIndex--;
                         flip = true;
                     }
-                    }
+                }
             }
             return result;
         }
 
+
+        public int CheckPalindromeSubStrings2(string str)
+        {
+            int [,]T = new int[str.Length, str.Length];
+            for(int i = 0; i<str.Length; i++)
+            {
+                T[i,i] = 1;
+            }
+
+            for (int l = 2; l <= str.Length; l++)
+            {
+                for (int i = 0; i<str.Length-l + 1; i++)
+                {
+                    int j = i + l - 1;
+
+                    if (l == 2 && str[i] == str[j])
+                    {
+                        T[i,j] = 2;
+                    }
+                    else if (str[i] == str[j])
+                    {
+                        T[i,j] = T[i + 1,j - 1] + 2;
+                    }
+                    else
+                    {
+                        T[i,j] = Math.Max(T[i + 1,j], T[i,j - 1]);
+                    }
+                }
+            }
+
+            var res = T[0, str.Length - 1];
+            return T[0, str.Length - 1];
+
+        }
+
+
         public void Run()
         {
-            string str = "abaab";  //output => "aba" , "aa" , "baab" 
+            string str = "abaabab";  //output => "aba" , "aa" , "baab" 
             //string str = "abbaeae";  //output => "bb" , "abba" ,"aea","eae"  //Todo - Work for this case....
-            var result = CheckPalindromeSubStrings(str);
-            foreach (var s in result)
-            {
-                Console.WriteLine(s);
-            }
+
+            //var result = CheckPalindromeSubStrings(str);
+            //foreach (var s in result)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+            var result2 = CheckPalindromeSubStrings2(str);
+            
+            Console.WriteLine("the longest palindrom substrsing length is  {0}", result2);
+            
         }
     }
 }

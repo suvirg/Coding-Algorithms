@@ -12,7 +12,7 @@ namespace Chapter02
     {
         public LinkedListNode ReverseList(LinkedListNode head, int groupSize)
         {
-            LinkedListNode LinkedListNode = new LinkedListNode();
+            //LinkedListNode LinkedListNode = new LinkedListNode();
             LinkedListNode current = head;
             LinkedListNode next = null;
             LinkedListNode prev = null;
